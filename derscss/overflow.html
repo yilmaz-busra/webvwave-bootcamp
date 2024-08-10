@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+      }
+
+      .visible-box {
+        overflow: visible;
+        /* tasan icerik gözüksün */
+      }
+
+      .hidden-box {
+        /* tasan icerik yok eder */
+        overflow: hidden;
+      }
+
+      .scrol-box {
+        overflow: scroll;
+      }
+      .auyo-box {
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box visible-box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+      deserunt quis quos animi culpa itaque! Unde sit, molestias hic optio
+      veritatis ullam placeat, alias illo ipsum mollitia temporibus dignissimos
+      perferendis perspiciatis tempora quos assumenda provident voluptates
+      omnis? Dolorem placeat quod quasi rerum accusamus repellendus veniam
+      perferendis ipsum dolore? Alias, inventore!
+    </div>
+    <div class="box hidden-box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+      deserunt quis quos animi culpa itaque! Unde sit, molestias hic optio
+      veritatis ullam placeat, alias illo ipsum mollitia temporibus dignissimos
+      perferendis perspiciatis tempora quos assumenda provident voluptates
+      omnis? Dolorem placeat quod quasi rerum accusamus repellendus veniam
+      perferendis ipsum dolore? Alias, inventore!
+    </div>
+    <div class="box scrol-box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+      deserunt quis quos animi culpa itaque! Unde sit, molestias hic optio
+      veritatis ullam placeat, alias illo ipsum mollitia temporibus dignissimos
+      perferendis perspiciatis tempora quos assumenda provident voluptates
+      omnis? Dolorem placeat quod quasi rerum accusamus repellendus veniam
+      perferendis ipsum dolore? Alias, inventore!
+    </div>
+    <div class="box auto-box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae
+      deserunt quis quos animi culpa itaque! Unde sit, molestias hic optio
+      veritatis ullam placeat, alias illo ipsum mollitia temporibus dignissimos
+      perferendis perspiciatis tempora quos assumenda provident voluptates
+      omnis? Dolorem placeat quod quasi rerum accusamus repellendus veniam
+      perferendis ipsum dolore? Alias, inventore!
+    </div>
+  </body>
+</html>

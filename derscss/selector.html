@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      background-color: violet;
+    }
+    p {
+      color: red;
+    }
+    .highlihgt {
+      color: blue;
+    }
+    #unique {
+      color: green;
+    }
+    div p {
+      color: yellow;
+    }
+    div p,
+    span {
+      color: black;
+    }
+    /* en baskından en düşüğe doğru sıralama id>class>etiket */
+    /* etiket,id,class larda en son yazılan en baskın islem olur */
+    /* Genelden ozele css yazılır, body, h etiketlri vb, sonrası classlar */
+    /* * univeral selector. Tüm etiketleri seçer.  */
+    /* #unique id selector. id'si unique olan etiketi seçer. */
+  </style>
+  <body>
+    <div>
+      <p>Lorem, ipsum dolor.</p>
+      <span>Lorem, ipsum dolor.</span>
+    </div>
+    <p>Lorem, ipsum dolor.</p>
+    <!-- classlarla karşımıza ççıkıyor.highlight -->
+    <p class="highlihgt">Lorem, ipsum dolor.</p>
+    <p id="unique" class="highlihgt">Lorem, ipsum dolor.</p>
+  </body>
+</html>

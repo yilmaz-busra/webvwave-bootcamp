@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- colorzilla uzantısı ile renk kodu bulunabilir -->
+  <style>
+    body {
+      background-color: rgb(93, 254, 93); /* #f0f0f0 Hex kodu */
+    }
+    h1 {
+      color: red; /* renk ismi */
+    }
+    p {
+      color: rgb(
+        0,
+        0,
+        255
+      ); /* kırmızı yeşil mavi oranı ile renk verme-- rgb ataması */
+
+      .box {
+        width: 250;
+        height: 250;
+        background-color: rgb(
+          11,
+          15,
+          15
+        ); /* 0.5 opaklık degeri verilir cok net istemiyorsak 0.8 ya da cok net isteniyorsa0.4 verilir */
+      }
+
+      #hsl-color {
+        color: hsl(120, 100%, 50%, 0.5); /* hsl ataması */
+      }
+    }
+  </style>
+  <body>
+    <h1>Burası Başlık</h1>
+    <p>Burası Paragraf</p>
+    <p class="highlight">Öne çıkan paragraf</p>
+    <div class="box">asd</div>
+    <p id="hsl-color">Hsl uygulanmış PAragraf</p>
+  </body>
+</html>
